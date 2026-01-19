@@ -5,21 +5,21 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity" android:orientation="vertical"
-    android:layout_margin="48dp">
+    tools:context=".MainActivity" android:orientation="vertical">
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Start Basic Service"
-        android:id="@+id/btnStartBasicService"
+        android:text="Start Foreground Service"
+        android:id="@+id/btnStartForegroundService"
         android:onClick="onClick"
         />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Stop Basic Service"
-        android:id="@+id/btnStopBasicSevice"
-        android:onClick="onClick"/>
+        android:text="Stop Foreground Service"
+        android:id="@+id/btnStopForegroundService"
+        android:onClick="onClick"
+        />
 
 </LinearLayout>

@@ -19,5 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Session8"
+rootProject.name = "Session8_ForegroundService"
 include(":app")
+ 

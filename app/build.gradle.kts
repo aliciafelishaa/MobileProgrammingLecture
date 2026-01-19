@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.session8"
+    namespace = "com.example.session8_foregroundservice"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.session8"
+        applicationId = "com.example.session8_foregroundservice"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
